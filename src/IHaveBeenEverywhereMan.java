@@ -18,7 +18,7 @@ public class IHaveBeenEverywhereMan {
                 hs.add(in);
             }
 
-            System.out.println(hs.size());
+           pw.println(hs.size());
 
             hs.clear();
 
