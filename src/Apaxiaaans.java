@@ -7,10 +7,14 @@ public class Apaxiaaans {
         String emp = "";
 
         for (int i = 0; i < str.length(); i++) {
-            if ( (i == str.length() - 1) || str.charAt(i) != str.charAt(i + 1) ) {
+            if ((i == str.length() - 1) || str.charAt(i) != str.charAt(i + 1)) {
                 emp += str.charAt(i);
             }
+
+
+            System.out.println(emp);
         }
-        System.out.println(emp);
+
     }
+
 }
