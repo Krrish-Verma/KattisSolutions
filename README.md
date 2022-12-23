@@ -1,3 +1,3 @@
 # KattisSolutions
 
-The following repo has solutions to the following Kattis Problems in Java. 
+The following repo has solutions to Kattis Problems in Java. 
