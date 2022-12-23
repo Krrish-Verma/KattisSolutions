@@ -8,10 +8,13 @@ public class OddEcho {
 
         int n = sc.nextInt();
 
-        for(int i = 0; i < n; i+=2)
-        {
-            String words = sc.nextLine();
-            System.out.println(words);
+        for(int i = 0; i < n; i++) {
+            String words = sc.next();
+
+            if(i % 2 == 0) {
+                System.out.println(words);
+            }
+
 
         }
 
