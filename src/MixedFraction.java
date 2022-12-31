@@ -6,10 +6,12 @@ public class MixedFraction {
 
         Scanner sc = new Scanner(System.in);
 
-        while(sc.nextInt() != 0){
+        while(true){
 
             int a = sc.nextInt();
             int b = sc.nextInt();
+
+            if(a == 0 && b == 0) break;
 
             int whole = a/b;
             int numerator = a % b;
