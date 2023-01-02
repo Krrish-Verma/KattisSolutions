@@ -3,14 +3,15 @@ import java.util.*;
 
 public class IsItHalloween {
     public static void main(String[] args) throws IOException {
-        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        PrintWriter pw = new PrintWriter(new OutputStreamWriter(System.out));
 
-        int n = Integer.parseInt(br.readLine());
+        Scanner sc = new Scanner(System.in);
+
+        String s = sc.nextLine();
+
+        if (s.equals("OCT 31") || (s.equals("DEC 25"))) System.out.println("yup");
+        else System.out.println("nope");
 
 
-        br.close();
-        pw.close();
     }
 
 }
