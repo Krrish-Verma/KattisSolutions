@@ -16,6 +16,7 @@ public class PokerHand {
 
         for (int i = 0; i < 5; i++) {
             for (int j = failedAt; j < 5; j++) {
+
                 if (currentR.equals(String.valueOf(cards.get(j).charAt(0)))) strength++;
                 else {
                     failedAt = j;
