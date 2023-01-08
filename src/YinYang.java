@@ -12,6 +12,8 @@ public class YinYang {
             if(str.charAt(i) == 'W') w++;
             else k++;
         }
+
+        //update this with ternary operators later -_-
         if(k == w) pw.println(1);
         else pw.println(0);
 
